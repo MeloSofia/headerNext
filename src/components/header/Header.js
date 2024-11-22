@@ -1,13 +1,23 @@
+import Link from "next/link"
+import Image from "next/image"
 import styles from "../../style/header.module.css"
+import {Poppins} from "next/font/google"
+
 export default function Header(){
     return(
-        <div>
-            <ul className={styles.body}>
-                <li>Início</li>
-                <li>Pág 2</li>
-                <li>Pág 3</li>
-                <li>Pág 4</li>
+        <nav>
+            <div>
+                <Image src="/assets/s.png" width="30" height="30" alt="sofia"/>
+                <h1>Sofia Melo</h1>
+            </div>
+            <ul>
+                <li>
+                    <Link href="/">Home</Link>
+                </li>
+                <li>
+                    <Link href="/About">Sobre</Link>
+                </li>
             </ul>
-        </div>
+        </nav>
     )
 }
