@@ -1,8 +1,6 @@
-import localFont from "next/font/local";
-import styles from "../style/globals.css";
 import Header from "@/components/header/Header";
-import Head from "next/head";
 import {Poppins} from "next/font/google"
+import Home from "@/components/header/Home";
 
 const poppins = Poppins({
   weight: '400',
@@ -20,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body className={poppins.className}>
         <Header />
+        {/* <Home /> */}
         <main className="main-container">{children}</main>
       </body>
     </html>
