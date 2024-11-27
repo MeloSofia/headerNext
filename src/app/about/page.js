@@ -1,4 +1,4 @@
-import styles from "../About/sobre.module.css";
+import styles from "../about/sobre.module.css";
 
 export default function Sobre() {
 	return (
