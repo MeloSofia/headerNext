@@ -21,14 +21,14 @@
     margin: 0;
     font-family: poppins;
   }
+  h1{
+  color:#00137D;
+  text-align: center;
+
+}
   .main-container{
     min-height: 70vh;
   }
-
-
-
-
-
 
   @media (prefers-color-scheme: dark) {
     html {

@@ -1,9 +1,9 @@
-import Image from "next/image";
 import styles from "../style/page.module.css";
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-    </div>
-  );
+	return (
+		<div>
+			<p className={styles.p}>Início</p>
+		</div>
+	);
 }
