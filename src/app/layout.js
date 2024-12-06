@@ -1,7 +1,4 @@
 import Header from "@/components/header/Header";
-import Contact from "@/app/contact/page";
-import About from "@/app/about/page";
-import Home from "@/app/home/page";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins({

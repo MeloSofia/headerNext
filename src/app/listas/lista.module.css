@@ -4,18 +4,22 @@
   text-align: center;
   font-size: 150%;
   font-weight: 500;
-  border: 2px solid #00137d ;
   border-radius: 14px;
-  width: 10%;
+  width: 100%;
+  border: 2px solid #00137d;
+  font-family: "poppins";
+
 }
 .lista1{
   color: #00137d;
   text-align: center;
   font-size: 150%;
   font-weight: 500;
+  font-family: "poppins";
 }
 .list{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "poppins";
 }
