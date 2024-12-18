@@ -1,4 +1,5 @@
 'use client';
+import styles from "../filter/filter.module.css";
 import { useState } from "react";
 
 export default function Filter(){
@@ -11,7 +12,7 @@ export default function Filter(){
   console.log(pares);
   return(
     <div>
-      <h1>Filter</h1>
+      <h1 className={styles.filter}>Filter</h1>
       <input
         value={busca}
         type="text"

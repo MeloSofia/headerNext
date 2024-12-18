@@ -1,0 +1,12 @@
+.efeito{
+    color: #00137d;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    font-family: "poppins";
+}
+.alinhar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
